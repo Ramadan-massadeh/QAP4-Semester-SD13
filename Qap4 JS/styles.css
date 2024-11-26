@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 1000px; /* will be removed later */
+  background-color: white;
+  color: black;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+  font-size: 14pt;
+}
+
+.resultstable {
+  width: 500px;
+  margin: auto;
+}
+
+.resultstable .lefttext {
+  text-align: left;
+}
+
+.resultstable .righttext {
+  text-align: right;
+}
+
+.resultstable .centertext {
+  text-align: center;
+}
+
+.resultstable .greenrow {
+  background-color: green;
+}
+.temptable {
+  width: 300px;
+  margin: auto;
+}
+
+.temptable .lefttext {
+  text-align: left;
+}
+
+.temptable .righttext {
+  text-align: right;
+}
+
+.temptable .centertext {
+  text-align: center;
+}
+.bold{
+  font-weight: 700;
+}
+.white{
+  color: white;
+}
